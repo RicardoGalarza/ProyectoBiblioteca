@@ -43,7 +43,7 @@ public class Libro {
         this.numeroPaginas = libroDTO.getNumeroPaginas();
         this.precio = libroDTO.getPrecio();
         this.fechaEdicion = libroDTO.getFechaEdicion();
-        this.autor = new Autor(libroDTO.getAuthorDto);
+        this.autor = new Autor(libroDTO.getAutorDTO());
     }
 }
 

@@ -17,7 +17,7 @@ import com.ecodeup.biblioteca.dto.AutorDTO;
 import com.ecodeup.biblioteca.service.AutorService;
 
 @RestController
-@RequestMapping("/api/v1/biblioteca")
+@RequestMapping("/api/v1/biblioteca/autores")
 public class AutorController {
 
     @Autowired

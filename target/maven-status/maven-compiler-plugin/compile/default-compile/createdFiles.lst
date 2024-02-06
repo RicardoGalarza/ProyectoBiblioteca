@@ -1,11 +1,13 @@
-com\ecodeup\biblioteca\service\FabricaLibroService.class
 com\ecodeup\biblioteca\controller\AutorController.class
+com\ecodeup\biblioteca\repository\LibroRepository.class
+com\ecodeup\biblioteca\service\LibroService.class
+com\ecodeup\biblioteca\repository\AutorRepository.class
+com\ecodeup\biblioteca\service\FabricaLibroService.class
 com\ecodeup\biblioteca\service\FabricaAutorService.class
 com\ecodeup\biblioteca\dto\AutorDTO.class
 com\ecodeup\biblioteca\model\Libro.class
-com\ecodeup\biblioteca\repository\LibroRepository.class
+com\ecodeup\biblioteca\controller\LibroController.class
 com\ecodeup\biblioteca\service\AutorService.class
 com\ecodeup\biblioteca\BibliotecaApplication.class
 com\ecodeup\biblioteca\dto\LibroDTO.class
-com\ecodeup\biblioteca\repository\AutorRepository.class
 com\ecodeup\biblioteca\model\Autor.class

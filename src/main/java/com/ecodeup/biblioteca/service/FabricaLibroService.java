@@ -15,11 +15,11 @@ public class FabricaLibroService {
             return new Libro(libroDTO);
         }
 
-        public LibroDTO creaLibroDTO(Libro  libro) {
+        public LibroDTO crearLibroDTO(Libro  libro) {
             return new LibroDTO(libro);
     }
 
-        public List<LibroDTO> creaLibrosDTO(List<Libro> libros) {
+        public List<LibroDTO> crearLibrosDTO(List<Libro> libros) {
             List<LibroDTO> libroDTOS = new ArrayList<>();
             libros.stream().forEach(
                 libro -> {
@@ -28,5 +28,13 @@ public class FabricaLibroService {
             );
             return libroDTOS;
         }
+
+        public List<LibroDTO> crearLibroDTO(List<Libro> all) {
+            throw new UnsupportedOperationException("Unimplemented method 'crearLibroDTO'");
+        }
+
+        
+
+        
 }
 
