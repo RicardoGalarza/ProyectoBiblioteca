@@ -29,9 +29,7 @@ public class FabricaLibroService {
             return libroDTOS;
         }
 
-        public List<LibroDTO> crearLibroDTO(List<Libro> all) {
-            throw new UnsupportedOperationException("Unimplemented method 'crearLibroDTO'");
-        }
+        
 
         
 

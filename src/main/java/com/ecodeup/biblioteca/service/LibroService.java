@@ -29,7 +29,7 @@ public class LibroService {
     }
 
     public List<LibroDTO> findAll(){
-        return fabricaLibroService.crearLibroDTO(libroRepository.findAll());
+        return fabricaLibroService.crearLibrosDTO(libroRepository.findAll());
     }
 
     public LibroDTO findById(Integer id){

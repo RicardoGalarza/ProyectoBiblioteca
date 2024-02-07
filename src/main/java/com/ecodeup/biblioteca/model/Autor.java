@@ -25,8 +25,8 @@ public class Autor {
     private String nombres;
     private String apellidos;
     private String telefono;
-    @OneToMany
-    List<Libro> libros;
+    @OneToMany(mappedBy = "autor")
+    private List<Libro> libros;
     
 
     public Autor(AutorDTO autorDTO) {

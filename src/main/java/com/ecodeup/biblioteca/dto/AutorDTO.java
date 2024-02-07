@@ -1,5 +1,8 @@
 package com.ecodeup.biblioteca.dto;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import com.ecodeup.biblioteca.model.Autor;
 
 import lombok.Data;
@@ -12,12 +15,18 @@ public class AutorDTO {
     private String nombres;
     private String apellidos;
     private String telefono;
+    private List<LibroDTO> libroDTO;
 
     public AutorDTO(Autor autor) {
         this.id = autor.getId();
         this.nombres = autor.getNombres();
         this.apellidos = autor.getApellidos();
         this.telefono  = autor.getTelefono();
+
+        this.libroDTO = new ArrayList<>();
+        autor.getLibros().forEach(
+            libro -> libroDTO.add(new LibroDTO(libro))
+        );
     }
    
 }
