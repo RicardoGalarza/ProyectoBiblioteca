@@ -45,7 +45,7 @@ public class AutorController {
 
         }
     }
-
+    // Todo bien //
     @DeleteMapping("/{id}")
     public ResponseEntity<HttpStatus> deleteById(@PathVariable Integer id) {
         try {
